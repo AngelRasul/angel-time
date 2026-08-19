@@ -1,0 +1,8 @@
+{
+  "name": "Remix Angel Time v2",
+  "description": "Строгое черно-белое приложение для отслеживания времени намаза и чтения Корана.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

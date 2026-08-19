@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+html, body {
+  overscroll-behavior: none;
+}
+
+.font-arabic {
+  font-family: 'Amiri', serif;
+}
