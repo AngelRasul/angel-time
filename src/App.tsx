@@ -404,7 +404,10 @@ function AppContent() {
         {screen === 'main' && (
           <>
             <header className="sticky top-0 z-30 bg-[#F6F8F5]/80 dark:bg-[#1C1B1A]/80 backdrop-blur-xl flex items-center justify-between px-6 pt-6 pb-1 transition-colors duration-300">
-              <h1 className="text-2xl font-bold tracking-tight">Angel Time</h1>
+              <div>
+                <h1 className="text-2xl font-bold tracking-tight">Angel Time</h1>
+                <span className="text-xs text-stone-500 dark:text-stone-400 block mt-0.5 font-medium">by Ataev Rasul</span>
+              </div>
               <button 
                 onClick={() => setScreen('settings')} 
                 className="p-3 bg-white dark:bg-[#2A2928] rounded-[20px] hover:shadow-md active:scale-95 transition-all duration-200 border border-stone-100 dark:border-stone-800 shadow-sm"
